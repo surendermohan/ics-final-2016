@@ -3,25 +3,36 @@ Final project for AP Computer Science 2016 class
 
 # Prerequisites
 
-1. A Google account - for example a gmail account and familiarity with using Google spreadsheets
-2. A text editor. Eclipse is also ok. But I would recommend downloading free version a text editor like Sublime text.
-3. Access to an FTP client (like FileZilla) or you can use net2ftp.com in your browser.
+1. Google account - for example a gmail account and familiarity with using Google spreadsheets
+2. Github account (if you do not have one) 
+3. c9.io Cloud IDE account - use your Github account created above to sign up at c9.io
 
 # Goals of the project
-Create your own mobile web application that shows the list of restaurants in your vicinty as your traveling.
+Create your own mobile web application that shows the list of restaurants in your vicinty as your traveling. Learn how to use a Cloud IDE and create live HTML5 web site for testing.
 
-# Steps
-1. Download the base files from Github as a zip file and unzip these in a folder. 
-2. Rename that folder with YOUR first name e.g. <your_first_name>
-3. Open that folder in Eclipse and edit index.html 
-3. Look for Text called "TODO" and then change the name in tag with your name as instructed.
-4. Upload your files using FTP (net2ftp.com) in folder with your name using the following credentials
-host: labs.pioneer-inc.com
-user: peslabs
-password: Peslabs@123
+# Milestone 1 - Clone base files from Github
+1. Sign in to c9.io using your Github account created above.
+2. Click on "Create new workspace" or go to this URL: https://c9.io/new
+3. Enter "ics-final-2016" as the workspace name and "<your_name>'s Final Project" as description.
+4. Keep the default for "Hosted Workspace" as "Public"
+4. Enter the following Github URL for the "Clone from Git or Mercurial URL" field: https://github.com/surendermohan/ics-final-2016.git
+5. Keep the default for the "Choose a template" as "HTML5"
+6. Click "Create Workspace" button
 
-5. You should now be able to access your mobile web application in the browser at the following URL: 
-http://labs.pioneer-inc.com/<your_first_name>
+Congratulations! You cloned the project on c9.io. You will see this Readme file open in the IDE.
+
+# Milestone 2 - Run your mobile web app
+1. Select index.html file in the left pane of the IDE.
+2. Press "CTRL-F" and find "TODO" 
+3. Change the name "surender" in line 42 of index.html with your own name.
+4. Press "Run" in the toolbar to start the Apache web server.
+5. Notice the URL shown in the console below when the application runs.
+>> Starting Apache httpd, serving https://ics-final-2016-surendermohan.c9users.io/index.html.
+6. Your mobile web application is now live at this web site. You can verify it in your browser.
+7. You should be able to access this URL (e.g. https://ics-final-2016-surendermohan.c9users.io) from your mobile phone also.
+
+# Milestone 3 - Create your own Stores catalog
+
 
 
 
