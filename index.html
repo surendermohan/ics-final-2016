@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Store-2-Mobile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--meta http-equiv="refresh" content="30"-->
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="themes/Bootstrap.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile.structure-1.4.0.min.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+  <style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .sidebar-nav {
+    padding: 9px 0;
+  }
+
+  @media (max-width: 980px) {
+    /* Enable use of floated navbar text */
+    .navbar-text.pull-right {
+      float: none;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div data-role="page" data-theme="b">
+    <div data-role="header">
+      <table width="100%">
+        <tr valign="middle">
+          <td width="30%"><font size="2">Hello Helen!</font><BR/>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#promosPage"><img height="40" src="./images/user_logo_200.png" alt="user logo" /></a></td>
+          <!-- TODO: Setp 1: Replace this name (Surender) with your own name -->
+          <td width="40%" align="center">Surender</td>
+          <td width="30%" align="right"><img height="60" src="./images/LP-logo.png"></img></td>
+        </tr>
+      </table>
+    </div><!-- /header -->
+
+    <div data-role="content">
+      <div class="app" style="display:none;">
+        <h1>S2M Cordova</h1>
+        <div id="deviceready" class="blink">
+          <p class="event listening">Connecting to Device</p>
+          <p class="event received">Device is Ready</p>
+        </div>
+      </div>
+      <div id="notificationPane" style="border: 2px solid;border-radius: 5px;display:none; color:white; background-color: black; font-name:Verdana; font-size:12px; text-align:center;">
+        S2M Notification<br>
+        <span id="notificationText"></span><br>
+        Happy Shopping!
+      </div>
+      <div class="geo-coords" style="font-size:12px;">
+        <fieldset class="ui-grid-c">
+          <div class="ui-block-a">
+            <input id="Lat" type="number" value="47.62536">
+          </div>
+          <div class="ui-block-b">
+            <input id="Long" type="number" value="-122.15449">
+          </div>
+          <div class="ui-block-c">
+            <input id="Radius" type="number" value="20">
+          </div>
+          <div class="ui-block-d">
+            <input type="button" value="Go" onclick="recalc_clicked_old()" />
+          </div>
+        </fieldset>
+        <div style="font-size:12px; color:black;" id="statusMessage"></div>
+      </div>
+      <ul data-role="listview" data-inset="true">
+        <div id="stores_list">
+          <li><a href="./store-promos.html" data-ajax="false">Store-1</a></li>
+          <li><a href="./store-promos.html" data-ajax="false">Store-2</a></li>
+        </div>
+      </ul>
+    </div><!-- /content -->
+    <div id="commonFooter" style="font-size:7px; color: #777; text-align:center;">
+    !! CONFIDENTIAL and PROPRIETARY Information !!
+    <p>
+
+    This is a confidential business research project based on work, study and research conducted with Microsoft, Top Retailers (like Walmart, Home Depot, Lowes, Starbucks) and Small Businesses.
+
+    <p>
+
+    You are now accessing confidential and proprietary information of Store-2-Mobile Inc. If you have reached this webpage or application by mistake or due to unintended purposes, please immediately close and delete the webpage or application from your system, and notify the owner.
+
+    </div>
+  </div><!-- page -->
+  
+  <div id="promosPage" data-role="page" data-theme="b">
+    
+    <div data-role="header">
+      <table width="100%">
+        <tr valign="middle">
+          <td width="30%"><a data-rel="back" data-icon="back" data-add-back-btn="true"><img height="40" src="./images/back-button.png" alt="user logo" /></a></td>
+          <td width="40%" align="center"><span id="storeName">Store-2-Mobile</span></td>
+          <td width="30%" align="right"><img height="60" src="./images/LP-logo.png"></img></td>
+        </tr>
+      </table>
+    </div><!-- /header -->
+    
+    <div data-role="content">      
+      <ul data-role="listview" data-inset="true">
+        <div id="promos_list">
+          <li><a href="./store-promos.html" data-ajax="false">Promo-1</a></li>
+          <li><a href="./store-promos.html" data-ajax="false">Promo-2</a></li>
+        </div>
+      </ul>      
+    </div><!-- /content -->
+  
+    <div id="commonFooter" style="font-size:7px; color: #777; text-align:center;">
+    !! CONFIDENTIAL and PROPRIETARY Information !!
+    <p>
+
+    This is a confidential business research project based on work, study and research conducted with Microsoft, Top Retailers (like Walmart, Home Depot, Lowes, Starbucks) and Small Businesses.
+
+    <p>
+
+    You are now accessing confidential and proprietary information of Store-2-Mobile Inc. If you have reached this webpage or application by mistake or due to unintended purposes, please immediately close and delete the webpage or application from your system, and notify the owner.
+
+    </div>
+  </div><!-- details page -->
+
+  <script type="text/javascript" src="js/s2m.js"></script>
+  <script>
+  
+  function notifyOrAlert(msg) {
+    // alert(msg);
+    console.log("NOTIFY:" + msg);
+    $('#notificationText').html('<a href="#promosPage">' + msg + '</a>');
+    $('#notificationPane').show();    
+  }
+  $(document).ready(function() {
+    console.log( "ready!" );
+    intialLoad();
+  });
+  </script>
+
+ </body>
+</html>

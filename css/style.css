@@ -1,0 +1,38 @@
+.authfailure{
+	width:98%; 
+	padding:1%; 
+	background-color:#f2dede; 
+	text-align:center;
+	margin-top:15px;
+}
+
+.msg{
+	background-color:#dff0d8;
+	padding:1%;
+	width:98%;
+	text-align:center;
+}
+
+.chevron {
+background: transparent url(../images/next_blue.svg);
+background-repeat: no-repeat;
+background-size: contain;
+width: 20px;
+height: 20px;
+position: absolute;
+right: 12px;
+top: 22px;
+height: 50px;
+width: 28px;
+}
+
+html { background-color: #333; }
+@media only screen and (min-width: 600px){
+	.ui-page {
+		width: 600px !important;
+		margin: 0 auto !important;
+		position: relative !important;
+		border-right: 5px #666 outset !important;
+		border-left: 5px #666 outset !important;
+	}
+}
