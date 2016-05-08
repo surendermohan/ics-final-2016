@@ -23,7 +23,7 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 
 # Milestone 2 - Run your mobile web app
 1. Select index.html file in the left pane of the IDE.
-2. Press "CTRL-F" and find "TODO" 
+2. Press "CTRL-F" and find the word "TODO" 
 3. Change the name "surender" in line 42 of index.html with your own name.
 4. Press "Run" in the toolbar to start the Apache web server.
 5. Notice the URL shown in the console below when the application runs.
@@ -32,6 +32,14 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 7. You should be able to access this URL (e.g. https://ics-final-2016-surendermohan.c9users.io) from your mobile phone also.
 
 # Milestone 3 - Create your own Stores catalog
+1. Login with your Google account in the Chrome browser.
+2. This application reads the stores data from a Google Sheet located at https://docs.google.com/spreadsheets/d/1gLEpxDmimsuPdVNNvIpOgTUO9T5XL5qDIRdx6gPbM70/edit#gid=907053173
+3. Open that spreadsheet and make copy by going to "File->Make a copy.."
+4. Name it as "<your_name> Customers List" and MAKE SURE to check "Share it with same people"
+5. Now go back to index.html file in the c9.io and look for next "TODO"
+6. Go to line 134 and replace the value of the customer sheet variable with the URL of your google sheet.
+
+
 
 
 
