@@ -1,8 +1,6 @@
 'using strict';
 google.load('visualization', '1', { packages: ['table', 'corechart'] });
 
-// TODO: Replace URL of the Goggle Sheet customer list with YOUR OWN version of the catalog
-var s2m_customers_gsheet_url = "https://docs.google.com/spreadsheets/d/1gLEpxDmimsuPdVNNvIpOgTUO9T5XL5qDIRdx6gPbM70/edit?usp=sharing";
 var Geo={};
 var last5Geo={};
 var last10Geo={};
