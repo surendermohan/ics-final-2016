@@ -83,7 +83,6 @@ function intialLoad() {
   }    
 
   //Get the latitude and the longitude;
-// TODO: Change the value of the timeperiod in setInterval call to change the refreshInterval
   function success(position) {
     Geo.lat = position.coords.latitude;
     Geo.lng = position.coords.longitude;
@@ -103,7 +102,7 @@ function intialLoad() {
         function() {
           navigator.geolocation.getCurrentPosition(geolocationWatchSuccess, geolocationWatchError, {timeout: 4000, enableHighAccuracy: true});
         }, 
-        5000);
+        locationRefreshInterval);
     });
   }
 
