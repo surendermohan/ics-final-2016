@@ -8,7 +8,7 @@ Final project for AP Computer Science 2016 class
 3. c9.io Cloud IDE account - use your Github account created above to sign up at c9.io
 
 # Goals of the project
-Create your own mobile web application that shows the list of restaurants in your vicinty as your traveling. Learn how to use a Cloud IDE and create live HTML5 web site for testing.
+Create your own mobile web application that shows the list of restaurants in your vicinty as you're traveling. Learn how to use a Cloud IDE and create live HTML5 web site for testing.
 
 # Milestone 1 - Clone base files from Github
 1. Sign in to c9.io using your Github account created above.
