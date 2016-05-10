@@ -5,17 +5,28 @@ Final project for AP Computer Science 2016 class
 
 1. Google account - for example a gmail account and familiarity with using Google spreadsheets
 2. Github account (if you do not have one) 
-3. c9.io Cloud IDE account - use your Github account created above to sign up at c9.io
+3. c9.io Cloud IDE account
+   - Either: Use your Github account created above to sign up at c9.io
+   - Or: Create a new c9.io account (with its own username and password) then go to this page to 
+     connect your Gihub and c9.io accounts: https://c9.io/account/services
 
 # Goals of the project
 Create your own mobile web application that shows the list of restaurants in your vicinty as you're traveling. Learn how to use a Cloud IDE and create live HTML5 web site for testing.
 
+# Milestone 0 - Fork the Github repository
+1. Sign in to Github using your account created above (see "Prerequisites").
+2. Go to this URL: https://github.com/surendermohan/ics-final-2016
+3. Click "Fork"
+4. This will allow you to create a copy of the entire project into your own Github account where you can make your own edits. 
+   You will now have your own Github repository with a URL that looks something like:
+   https://github.com/YOURNAME/ics-final-2016
+
 # Milestone 1 - Clone base files from Github
-1. Sign in to c9.io using your Github account created above.
+1. Sign in to c9.io using your account created above (see "Prerequisites").
 2. Click on "Create new workspace" or go to this URL: https://c9.io/new
 3. Enter "ics-final-2016" as the workspace name and "[your_name]'s Final Project" as description.
 4. Keep the default for "Hosted Workspace" as "Public"
-4. Enter the following Github URL for the "Clone from Git or Mercurial URL" field: https://github.com/surendermohan/ics-final-2016.git
+4. Enter the following Github URL for the "Clone from Git or Mercurial URL" field: https://github.com/YOURNAME/ics-final-2016.git
 5. Keep the default for the "Choose a template" as "HTML5"
 6. Click "Create Workspace" button
 
@@ -31,17 +42,26 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 6. Your mobile web application is now live at this web site. You can verify it in your browser.
 7. You should be able to access this URL (e.g. https://ics-final-2016-surendermohan.c9users.io) from your mobile phone also.
 
-# Milestone 3 - Create your own Stores catalog
+# Milestone 3 - Push your changes to your Github repository
+1. In the "bash" tab at the bottom of the c9.io IDE, type the following:
+   - git add index.html
+     - (this tells Git that you have made some changes to index.html that you intend 
+        to commit to the repository)
+   - git commit
+     - (this commits the changes you made to the local copy of your repository within 
+        c9.io; type a short description of your change in the editor that appears, then
+        press Control-O, Enter, Control-X to save your description and commit the change)
+   - git push
+     - (this pushes the changes you have commited in the local c9.io repository back
+        to Github)
+2. Go back to your Githib repository (see "Milestone 0") and verify that you can see
+   your changes.
+
+# Milestone 4 - Create your own Stores catalog
 1. Login with your Google account in the Chrome browser.
 2. This application reads the stores data from a Google Sheet located at https://docs.google.com/spreadsheets/d/1gLEpxDmimsuPdVNNvIpOgTUO9T5XL5qDIRdx6gPbM70/edit#gid=907053173
 3. Open that spreadsheet and make copy by going to "File->Make a copy.."
 4. Name it as "[your_name] Customers List" and check "Share it with same people". If you do not see the "Share it with some people" option, or forget to click it: After creating the copy, click on the "Share" button (in the top-right corener) and chose "On - Anyone with the link".
 5. Now go back to index.html file in the c9.io and look for next "TODO"
 6. Go to line 134 and replace the value of the customer sheet variable with the URL of your google sheet.
-
-
-
-
-
-
-
+7. Save your changes, commit them and push them to Github (see "Milestone 3")
