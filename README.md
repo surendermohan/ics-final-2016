@@ -13,7 +13,7 @@ Create your own mobile web application that shows the list of restaurants in you
 # Milestone 1 - Clone base files from Github
 1. Sign in to c9.io using your Github account created above.
 2. Click on "Create new workspace" or go to this URL: https://c9.io/new
-3. Enter "ics-final-2016" as the workspace name and "<your_name>'s Final Project" as description.
+3. Enter "ics-final-2016" as the workspace name and "[your_name]'s Final Project" as description.
 4. Keep the default for "Hosted Workspace" as "Public"
 4. Enter the following Github URL for the "Clone from Git or Mercurial URL" field: https://github.com/surendermohan/ics-final-2016.git
 5. Keep the default for the "Choose a template" as "HTML5"
