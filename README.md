@@ -35,7 +35,7 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 1. Login with your Google account in the Chrome browser.
 2. This application reads the stores data from a Google Sheet located at https://docs.google.com/spreadsheets/d/1gLEpxDmimsuPdVNNvIpOgTUO9T5XL5qDIRdx6gPbM70/edit#gid=907053173
 3. Open that spreadsheet and make copy by going to "File->Make a copy.."
-4. Name it as "<your_name> Customers List" and MAKE SURE to check "Share it with same people"
+4. Name it as "[your_name] Customers List" and check "Share it with same people". If you do not see the "Share it with some people" option, or forget to click it: After creating the copy, click on the "Share" button (in the top-right corener) and chose "On - Anyone with the link".
 5. Now go back to index.html file in the c9.io and look for next "TODO"
 6. Go to line 134 and replace the value of the customer sheet variable with the URL of your google sheet.
 
