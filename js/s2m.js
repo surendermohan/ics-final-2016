@@ -68,8 +68,12 @@ function showPromos(){
 }
 
 function showDisclaimer() {
-  var strDisclaimer = "!! CONFIDENTIAL and PROPRIETARY Information !!\n\nThis is a confidential business research project based on work, study and research conducted with Microsoft, Top Retailers (like Walmart, Home Depot, Lowes, Starbucks) and Small Businesses.\n\nYou are now accessing confidential and proprietary information of Store-2-Mobile Inc. If you have reached this webpage or application by mistake or due to unintended purposes, please immediately close and delete the webpage or application from your system, and notify the owner.";
-  alert(strDisclaimer); 
+  var strDisclaimer = "This is an AP Computer Science project not intended for general public use.";
+  
+  // Remove the comment characters ('//') below if you would like to display a legal disclaimer when
+  // the application is launched:
+  // 
+  // alert(strDisclaimer); 
 }
 
 function intialLoad() {
