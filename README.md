@@ -3,7 +3,8 @@ Final project for AP Computer Science 2016 class
 
 # Prerequisites
 
-1. Google account - for example a gmail account and familiarity with using Google spreadsheets
+1. Chrome browser
+2. Google account - for example a gmail account and familiarity with using Google spreadsheets
 2. Github account (if you do not have one) 
 3. c9.io Cloud IDE account
    - Either: Use your Github account created above to sign up at c9.io
