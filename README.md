@@ -84,7 +84,7 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 1. Read about HTML5 and CSS at high level.
 2. Read about jQuery and JavaScript at high level.
 3. Read about jQuery Mobile
-4. There will be report due with short 100-200 words questions about these topics later.
+4. There will be report due with short 100-200 words questions about these topics.
 
 
 
