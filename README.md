@@ -66,3 +66,28 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 5. Now go back to index.html file in the c9.io and look for next "TODO"
 6. Go to line 134 and replace the value of the customer sheet variable with the URL of your google sheet.
 7. Save your changes, commit them and push them to Github (see "Milestone 3")
+
+# Milestone 5 - Modify name and location of 5-10 stores in your neighborhood
+1. You will need to use Google Maps for this and then use "Right-Click"->"Whats Here" to get the Latitude and Longitude
+2. Open the Spreadsheet you created for yourself and update columns A-H to modify a store from your locality
+3. Open the web link of your application and you should see your nealy added store.
+4. Repeat steps 2,3 for other stores
+5. Document your steps to explain how you updated the stores.
+
+# jsFiddle and Geolocation Learning Exercise
+1. Go to http://doc.jsfiddle.net/tutorial.html and run the tutorial
+2. Read about Geolocation at http://www.w3schools.com/html/html5_geolocation.asp
+3. Try the code at http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation
+4. Create a jsFiddle for Geolocation based on the code in Part 3. Save it and add the link in your notes. (Note: you will have to split the file in HTML and JavaScript portions)
+
+# Reading Exercise 
+1. Read about HTML5 and CSS at high level.
+2. Read about jQuery and JavaScript at high level.
+3. Read about jQuery Mobile
+4. There will be report due with short 100-200 words questions about these topics later.
+
+
+
+
+
+
