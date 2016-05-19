@@ -78,7 +78,7 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 1. Go to http://doc.jsfiddle.net/tutorial.html and run the tutorial
 2. Read about Geolocation at http://www.w3schools.com/html/html5_geolocation.asp
 3. Try the code at http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation
-4. Create a jsFiddle for Geolocation based on the code in Part 3. Save it and add the link in your notes. (Note: you will have to split the file in HTML and JavaScript portions)
+4. Create a jsFiddle for Geolocation based on the code in Part 3. Save it and add the link in your notes. (Note: you will have to split the file in HTML and JavaScript portions). For example: https://jsfiddle.net/cxjwj80c/
 
 # Reading Exercise 
 1. Read about HTML5 and CSS at high level.
