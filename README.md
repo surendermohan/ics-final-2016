@@ -89,6 +89,8 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 # YouTube Video for Chrome Debugging
 1. Watch this video about Chrome Debugging https://www.youtube.com/watch?v=JzZFccCEgGA
 2. We will then walk through the code for geolocationWatchSuccess_helper(lat, lng) function in s2m.js
+3. (Optional) watch first 7 videos in this playlist: https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET 
+
 
 
 
