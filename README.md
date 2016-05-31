@@ -96,21 +96,27 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 ##### Bug-1: Mixed Content warning in console for the images
    - **Steps to reproduce:** (for my mobile app, your link will be different)
    - Open the application in Chrome at https://ics-final-2016-surendermohan.c9users.io/index.html
-   - Open "Developer Tools" in Chrome by pressing "Ctrl+Shoift+I" on Windows (or from the menu for Mac folks)
-   - Open the Console tab (if it not open) in the "Developer Tool"
+   - Open "Developer Tools" in Chrome by pressing "Ctrl+Shift+I" on Windows (or from the menu for Mac folks)
+   - Open the Console tab (if it is not open) in the "Developer Tool"
    - Refresh the web page and notice the messages in the Console
    - **Actual Result:**
    - Following warning is thrown: Mixed Content: The page at 'https://ics-final-2016-surendermohan.c9users.io/index.html' was loaded over HTTPS, but requested an insecure image 'http://drive.google.com/uc?export=view&id=0B2SwyE8hza2BanJ4R3d0R2pCS3c'. This content should also be served over HTTPS.
    - **Expected Result:**
-   - No Warning is thrown when the page is rendered.
-##### Bug-2: Stores display does not refresh on change of location 
-2. Developer can enter a combination of Lat and Long in 2 text boxes at the top and results should change when Go is pressed.
-3. Enter the Lat, Long of a location near store from your own catalog
-2. You will notice that the display of restaurant changes but it does not refresh AFTER next location update.
-3. Location is also updated very soon as refresh interval is just 10 seconds (10000 milliseconds in index.html).
-4. There is a warning in the Console around images being served over HTTP .
-5. We are going to enable reload of stores on each refresh.
+   - No Warning is thrown when the page is rendered
 
+##### Bug-2: Stores display does not refresh on change of location 
+   - **Steps to reproduce:** (for my mobile app, your link will be different)
+   - Open the application in Chrome at https://ics-final-2016-surendermohan.c9users.io/index.html
+   - Open "Developer Tools" in Chrome by pressing "Ctrl+Shift+I" on Windows (or from the menu for Mac folks)
+   - Open the Console tab in the "Developer Tool"
+   - Look up the Lat/Long of a store from your own catalog.
+   - Update the Lat (first text box at the top) of that store in the application and press "Go"
+   - You will notice that the display of stores changes the order.
+   - Wait for the refresh interval (10 seconds by default) to kick in by noticing the updated status message
+   - **Actual Result:**
+   - The List of stores displayed does not change order.
+   - **Expected Result:**
+   - Stores should be displayed in the order of the distance when location gets updated.
 
 
 
