@@ -102,7 +102,7 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
    - **Actual Result:**
    - Following warning is thrown: Mixed Content: The page at 'https://ics-final-2016-surendermohan.c9users.io/index.html' was loaded over HTTPS, but requested an insecure image 'http://drive.google.com/uc?export=view&id=0B2SwyE8hza2BanJ4R3d0R2pCS3c'. This content should also be served over HTTPS.
    - **Expected Result:**
-   - No Warning is thrown when the page is rendered
+   - No Warning is thrown when the page is refreshed.
 
 ##### Bug-2: Stores display does not refresh on change of location 
    - **Steps to reproduce:** (for my mobile app, your link will be different)
