@@ -91,6 +91,15 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 2. We will then walk through the code for geolocationWatchSuccess_helper(lat, lng) function in s2m.js
 3. (Optional) watch first 7 videos in this playlist: https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET 
 
+# Milestone 6 - Fix bugs and enable unit testing of code on pressing "Go"
+Goal of this milestone is to enable "proper" unit testing of location code on pressing "Go".
+Developer can enter a combination of Lat and Long in 2 text boxes at the top and results should change when Go is pressed.
+1. Enter the Lat, Long near location close to your store and 
+2. You will notice that the list of restaurant changes and then stays there.
+3. Location is also updated very soon as refresh interval is low.
+4. There is a warning in the console around images being served over HTTP.
+5. We are going to enable reload of stores on each refresh.
+6. Fix a bug that makes the code return.
 
 
 
