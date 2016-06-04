@@ -230,7 +230,7 @@ function geolocationWatchSuccess_helper(lat, lng) {
   locationText += '. Diff=' + (currentTime - appStartTime) + ' current:' + currentTime +' , start: ' + appStartTime;
   
   // Ignore bogus callbacks during 30 seconds of startup.
-  if ((currentTime = appStartTime) < 30000) {
+  if ((currentTime - appStartTime) < 30000) {
     return;
   }
 
@@ -243,7 +243,7 @@ function geolocationWatchSuccess_helper(lat, lng) {
     //s2mReadCustomersData(function() {
     //  console.log('[success callback] store_string:' + store_string);
     //  showStores();
-    //}
+    //});
   }
   //alert(locationText);
   //scheduleNotification(1, locationText);
