@@ -118,6 +118,21 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
    - **Expected Result:**
    - Stores should be displayed in the order of the distance when location gets updated.
 
+# Milestone 7 - Push your changes to your Github repository
+1. In the "bash" tab at the bottom of the c9.io IDE, type the following:
+   - git add js/s2m.js (note that this Linux and folder takes a forward slash)
+     - (this tells Git that you have made some changes to js/s2m.js that you intend 
+        to commit to the repository)
+   - git commit
+     - (this commits the changes you made to the local copy of your repository within 
+        c9.io; type a short description of your change in the editor that appears (e.g. Milestone 6), then
+        press Control-O, Enter, Control-X to save your description and commit the change)
+   - git push (enter your Github username/password, if required)
+     - (this pushes the changes you have commited in the local c9.io repository back
+        to Github)
+2. Go back to your Githib repository (see "Milestone 6") and verify that you can see
+   your changes.
+
 
 ##### Grading Rubric:
    - Total 100 points, with possibility to earn upto 20 MORE EXTRA CREDIT points until 6/10/2016, 11:59 PM)
