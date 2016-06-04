@@ -119,6 +119,17 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
    - Stores should be displayed in the order of the distance when location gets updated.
 
 
+##### Grading Rubric:
+   - Total 100 points, with possibility to earn upto 20 MORE EXTRA CREDIT points until 6/10/2016, 11:59 PM)
+   - 10 : Milestone 1
+   - 20 : Milestone 2
+   - 10 : Milestone 3
+   - 20 : Milestone 5
+   - 10 : Mobile App Part 1 description part.
+   - 10 : Milestone 6 : Bug #1
+   - 15 : Milestone 6 : Bug #2
+   - 5  : Milestone 7 : Push your code back in your Github repo
+
 
 
 
