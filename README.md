@@ -144,7 +144,15 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
    - 10 : Milestone 6 : Bug #1
    - 15 : Milestone 6 : Bug #2
    - 5  : Milestone 7 : Push your code back in your Github repo
+   - Extra Credit - upto 20 points for Questions and Milestone 8
 
 
-
+# Milestone 8 - Implement the feature to use ProximityRadius value from the Catalog (up to 10 points of Extra Credit)
+##### Goal of this milestone is to implement a feature to use the ProximityRadius value read from the column V in the catalog.
+##### Feature-1 Update s2m.js to use the proximity value read from the catalog instead of the hard-coded value of 300 to display the proximity notification.
+   - Line 254 has logic to display the notification when the user is within the proximity of a store.
+   - Code in this line is hard-coded to check for closestStoreDistance being less than 300
+   - You are supposed to use the values stored in column V of your catalog instead of this hard coded value.
+   - Hint: Take a look at the global variables being set in Lines 532-562 of s2m.js file and then figure out how you will use that information.
+   
 
