@@ -42,6 +42,8 @@ Congratulations! You cloned the project on c9.io. You will see this Readme file 
 >> Starting Apache httpd, serving https://ics-final-2016-surendermohan.c9users.io/index.html.
 6. Your mobile web application is now live at this web site. You can verify it in your browser.
 7. You should be able to access this URL (e.g. https://ics-final-2016-surendermohan.c9users.io) from your mobile phone also.
+8. Share your workspace with RW (Read-Write) access to my c9.io account (username: surendermohan, email: smohan36@gmail.com). 
+9. This will allow me to run your project. Share button in on the top right corner of the IDE after you open the workspace.
 
 # Milestone 3 - Push your changes to your Github repository
 1. In the "bash" tab at the bottom of the c9.io IDE, type the following:
