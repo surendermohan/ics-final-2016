@@ -230,7 +230,7 @@ function geolocationWatchSuccess_helper(lat, lng) {
   locationText += '. Diff=' + (currentTime - appStartTime) + ' current:' + currentTime +' , start: ' + appStartTime;
   
   // Ignore bogus callbacks during 30 seconds of startup.
-  if ((currentTime - appStartTime) < 30000) {
+  if ((currentTime = appStartTime) < 30000) {
     return;
   }
 
@@ -239,11 +239,11 @@ function geolocationWatchSuccess_helper(lat, lng) {
   
   if (lastDataTableReadTime != null && (currentTime - lastDataTableReadTime) > 60000) {
     console.log('60 seconds since last catalog read.');
-    lastDataTable = null;
-    s2mReadCustomersData(function() {
-      console.log('[success callback] store_string:' + store_string);
-      showStores();
-    });
+    //lastDataTable = null;
+    //s2mReadCustomersData(function() {
+    //  console.log('[success callback] store_string:' + store_string);
+    //  showStores();
+    //}}
   }
   //alert(locationText);
   //scheduleNotification(1, locationText);
